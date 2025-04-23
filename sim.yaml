@@ -4,6 +4,10 @@ temperature: 300.0
 molecular-mass: 5.0e-26
 molecular-diameter: 3.5e-10
 
+ref-temperature: 273.0
+viscosity-powlaw: 0.75
+vss-scattering: 1.0
+
 particles-per-particle: 1.0e16
 
 xmin: 0.0
@@ -11,7 +15,7 @@ xmax: 1.0
 cell-count: 10
 subcells-per-cell: 8
 
-timestep: 0.25e-4
+timestep: 0.25e-5
 steps-per-sample: 4
 save-interval: 40
-save-count: 500
+save-count: 10
